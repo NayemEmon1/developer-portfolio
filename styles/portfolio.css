@@ -1,0 +1,36 @@
+/* common shared styles */
+body {
+    font-family: 'lato', sans-serif;
+    font-family: "Open Sans", sans-serif;
+}
+
+.banner {
+    /* padding: 300px 600px 300px 600px; */
+    margin: 200px 300px;
+    text-align: right;
+    background-image: url('../images/banner/banner1.png');
+    height: 1000px;
+    width: 1000px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.banner-title {
+    padding: 20px 20px 30px 150px;
+    margin: 200px 500px;
+    text-align: right; */
+
+}
+
+
+.btn-primary {
+    background-color: #fd6e0a;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
