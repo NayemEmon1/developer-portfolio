@@ -6,24 +6,29 @@ body {
 
 .banner {
     /* padding: 300px 600px 300px 600px; */
-    margin: 200px 300px;
-    text-align: right;
     background-image: url('../images/banner/banner1.png');
-    height: 1000px;
-    width: 1000px;
     background-repeat: no-repeat;
-    display: flex;
-    justify-content: space-between;
+    background-position: center;
+    /* margin:30px 30px 30px 70px ; */
 
+
+}
+
+.banner-content {
+    text-align: right;
+    padding: 330px 300px 300px 600px;
+    margin: 150px 150px 150px 300px;
 }
 
 .banner-title {
-    padding: 20px 20px 30px 150px;
-    margin: 200px 500px;
-    text-align: right; */
+    font-weight: 700px;
+    font-size: 100%;
 
 }
 
+.banner-description {
+    color: #757575;
+}
 
 .btn-primary {
     background-color: #fd6e0a;
@@ -33,4 +38,17 @@ body {
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+section li {
+    list-style: circle;
+}
+
+.portfolio-pic {
+    width: 500px;
 }
